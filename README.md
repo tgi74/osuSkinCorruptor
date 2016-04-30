@@ -14,6 +14,6 @@ To use it:
 - choose the skin called "corrupted" in osu!
 - quick reload button (in osu!) is CTRL + SHIFT + ALT + S
 
-video showing it in action: https://www.youtube.com/watch?v=G0juEUhbfwk
+video showing it in action: https://youtu.be/PezCa8tpcNk
 
 Downloads: https://github.com/tgi74/osuSkinCorruptor/releases
