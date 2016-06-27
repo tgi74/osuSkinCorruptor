@@ -14,8 +14,6 @@ namespace OsuSkinCorruptor
 
         private void goButton_Click(object sender, EventArgs e)
         {
-            folderTextBox.Text = folderBrowserDialog.SelectedPath;
-
             if (string.IsNullOrWhiteSpace(seedTextBox.Text))
                 seedTextBox.Text = r.Next() + "";
 
@@ -41,6 +39,8 @@ namespace OsuSkinCorruptor
         private void folderTextBox_Click(object sender, EventArgs e)
         {
             folderBrowserDialog.ShowDialog();
+            folderTextBox.Text = folderBrowserDialog.SelectedPath;
+            goButton.Enabled = true;
         }
     }
 }

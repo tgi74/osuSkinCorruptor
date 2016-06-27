@@ -48,11 +48,12 @@ namespace OsuSkinCorruptor
             // 
             // folderBrowserDialog
             // 
-            this.folderBrowserDialog.RootFolder = System.Environment.SpecialFolder.LocalApplicationData;
             this.folderBrowserDialog.SelectedPath = "%localappdata%\\osu!\\Skins";
+            this.folderBrowserDialog.ShowNewFolderButton = false;
             // 
             // goButton
             // 
+            this.goButton.Enabled = false;
             this.goButton.Location = new System.Drawing.Point(538, 470);
             this.goButton.Name = "goButton";
             this.goButton.Size = new System.Drawing.Size(100, 71);
@@ -83,6 +84,7 @@ namespace OsuSkinCorruptor
             this.folderTextBox.Name = "folderTextBox";
             this.folderTextBox.Size = new System.Drawing.Size(319, 20);
             this.folderTextBox.TabIndex = 3;
+            this.folderTextBox.Text = "Click here to select a skin folder !";
             this.folderTextBox.Click += new System.EventHandler(this.folderTextBox_Click);
             // 
             // folderLabel
